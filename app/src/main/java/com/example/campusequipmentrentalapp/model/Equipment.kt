@@ -15,8 +15,7 @@ enum class RentalStatus(
     val label: String,
     val isAvailable: Boolean
 ) {
-    AVAILABLE("대여 가능", true),
-    RENTED("대여 중", false),
-    MAINTENANCE("점검 중", false)
+    AVAILABLE("Available", true),
+    RENTED("Rented", false),
+    MAINTENANCE("Under Maintenance", false)
 }
-

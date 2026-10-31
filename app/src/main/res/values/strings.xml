@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">캠퍼스 기자재 대여</string>
-    <string name="home_title">캠퍼스 기자재 대여</string>
-    <string name="home_subtitle">수업과 프로젝트에 필요한 기자재를 확인하고 대여를 신청하세요.</string>
-    <string name="learning_title">이번 실습에서 배우는 내용</string>
-    <string name="view_equipment">기자재 목록 보기</string>
-    <string name="home_note">교육용 샘플 앱 · 실제 대여 승인은 학과 규정에 따릅니다.</string>
+    <string name="app_name">Campus Equipment Rental</string>
+    <string name="home_title">Campus Equipment Rental</string>
+    <string name="home_subtitle">Check equipment needed for classes and projects and apply for rental.</string>
+    <string name="learning_title">What you learn in this practice</string>
+    <string name="view_equipment">View Equipment List</string>
+    <string name="home_note">Educational sample app · Actual rental approval is subject to department regulations.</string>
 
-    <string name="equipment_list_title">기자재 목록</string>
-    <string name="equipment_list_subtitle">항목을 누르면 상세 정보와 대여 가능 여부를 확인할 수 있습니다.</string>
-    <string name="max_days_short_format">최대 %1$d일</string>
-    <string name="location_format">보관 장소: %1$s</string>
-    <string name="max_days_format">최대 대여 기간: %1$d일</string>
-    <string name="apply_rental">대여 신청하기</string>
-    <string name="currently_unavailable">현재 대여 불가</string>
-    <string name="equipment_not_found">기자재 정보를 찾지 못했습니다.</string>
+    <string name="equipment_list_title">Equipment List</string>
+    <string name="equipment_list_subtitle">Tap an item to check details and availability.</string>
+    <string name="max_days_short_format">Max %1$d days</string>
+    <string name="location_format">Location: %1$s</string>
+    <string name="max_days_format">Max rental period: %1$d days</string>
+    <string name="apply_rental">Apply for Rental</string>
+    <string name="currently_unavailable">Currently Unavailable</string>
+    <string name="equipment_not_found">Equipment information not found.</string>
 
-    <string name="rental_form_title">대여 신청서</string>
-    <string name="selected_equipment_format">%1$s  선택 기자재: %2$s</string>
-    <string name="rental_rule_format">이 기자재는 최대 %1$d일까지 신청할 수 있습니다.</string>
-    <string name="applicant_name">신청자 이름</string>
-    <string name="student_id">학번</string>
-    <string name="rental_period">대여 기간</string>
-    <string name="rental_purpose">대여 목적</string>
-    <string name="submit_rental">신청 내용 확인</string>
-    <string name="day_format">%1$d일</string>
-    <string name="enter_name">이름을 입력하세요.</string>
-    <string name="enter_student_id">학번을 입력하세요.</string>
-    <string name="enter_purpose">대여 목적을 입력하세요.</string>
+    <string name="rental_form_title">Rental Application Form</string>
+    <string name="selected_equipment_format">%1$s  Selected Equipment: %2$s</string>
+    <string name="rental_rule_format">This equipment can be requested for up to %1$d days.</string>
+    <string name="applicant_name">Applicant Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="rental_period">Rental Period</string>
+    <string name="rental_purpose">Purpose of Rental</string>
+    <string name="submit_rental">Confirm Application</string>
+    <string name="day_format">%1$d days</string>
+    <string name="enter_name">Please enter your name.</string>
+    <string name="enter_student_id">Please enter your student ID.</string>
+    <string name="enter_purpose">Please enter the purpose of rental.</string>
 
-    <string name="complete_title">신청 완료</string>
-    <string name="complete_subtitle">대여 신청이 접수되었습니다. 담당자 승인 후 대여할 수 있습니다.</string>
+    <string name="complete_title">Application Complete</string>
+    <string name="complete_subtitle">Your rental application has been submitted. Equipment will be available upon manager approval.</string>
     <string name="complete_equipment_format">%1$s  %2$s</string>
-    <string name="complete_applicant_format">신청자: %1$s</string>
-    <string name="complete_student_id_format">학번: %1$s</string>
-    <string name="complete_period_format">대여 기간: %1$d일</string>
-    <string name="complete_purpose_format">대여 목적: %1$s</string>
-    <string name="unknown_equipment">알 수 없는 기자재</string>
-    <string name="back_to_list">기자재 목록으로</string>
-    <string name="back_to_home">처음 화면으로</string>
+    <string name="complete_applicant_format">Applicant: %1$s</string>
+    <string name="complete_student_id_format">Student ID: %1$s</string>
+    <string name="complete_period_format">Rental Period: %1$d days</string>
+    <string name="complete_purpose_format">Purpose: %1$s</string>
+    <string name="unknown_equipment">Unknown Equipment</string>
+    <string name="back_to_list">Back to List</string>
+    <string name="back_to_home">Back to Home</string>
 </resources>

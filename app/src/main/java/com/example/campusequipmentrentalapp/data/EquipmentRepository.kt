@@ -3,101 +3,92 @@ package com.example.campusequipmentrentalapp.data
 import com.example.campusequipmentrentalapp.model.Equipment
 import com.example.campusequipmentrentalapp.model.RentalStatus
 
-//데이터베이스 대신 사용할 샘플 데이터 레퍼지터리(보관)
+// Sample data repository to use instead of a database
 object EquipmentRepository {
 
     val equipmentList :List<Equipment> = listOf(
         Equipment(
             id = 1,
-            name = "노트북",
-            category = "컴퓨터",
+            name = "Laptop",
+            category = "Computer",
             icon = "💻",
             status = RentalStatus.AVAILABLE,
             maxRentalDays = 3,
-            location = "미디어관 604호",
-            description = "수업 발표와 팀 프로젝트에 사용할 수 있는 Windows 노트북입니다."
+            location = "Media Hall Rm 604",
+            description = "Windows laptop for class presentations and team projects."
         ),
         Equipment(
             id = 2,
-            name = "태블릿",
-            category = "모바일",
+            name = "Tablet",
+            category = "Mobile",
             icon = "📱",
             status = RentalStatus.AVAILABLE,
             maxRentalDays = 2,
-            location = "미디어관 604호",
-            description = "필기, 전자책, 모바일 앱 테스트에 사용할 수 있는 Android 태블릿입니다."
+            location = "Media Hall Rm 604",
+            description = "Android tablet for note-taking, e-books, and mobile app testing."
         ),
         Equipment(
             id = 3,
-            name = "웹캠",
-            category = "영상",
+            name = "Webcam",
+            category = "Video",
             icon = "📷",
             status = RentalStatus.RENTED,
             maxRentalDays = 3,
-            location = "학과 사무실",
-            description = "온라인 발표와 영상 촬영에 사용할 수 있는 Full HD 웹캠입니다."
+            location = "Department Office",
+            description = "Full HD webcam for online presentations and video recording."
         ),
         Equipment(
             id = 4,
-            name = "삼각대",
-            category = "촬영",
+            name = "Tripod",
+            category = "Photography",
             icon = "🎬",
             status = RentalStatus.AVAILABLE,
             maxRentalDays = 5,
-            location = "미디어관 605호",
-            description = "스마트폰과 소형 카메라 촬영에 사용할 수 있는 높이 조절 삼각대입니다."
+            location = "Media Hall Rm 605",
+            description = "Height-adjustable tripod for smartphones and compact cameras."
         ),
         Equipment(
             id = 5,
-            name = "빔프로젝터",
-            category = "발표",
+            name = "Beam Projector",
+            category = "Presentation",
             icon = "📽️",
             status = RentalStatus.MAINTENANCE,
             maxRentalDays = 1,
-            location = "학과 사무실",
-            description = "팀 발표와 행사에 사용할 수 있는 휴대용 프로젝터입니다. 현재 점검 중입니다."
+            location = "Department Office",
+            description = "Portable projector for team presentations and events. Currently under inspection."
         ),
         Equipment(
             id = 6,
-            name = "VR 기기",
-            category = "실감미디어",
+            name = "VR Headset",
+            category = "Immersive Media",
             icon = "🥽",
             status = RentalStatus.AVAILABLE,
             maxRentalDays = 1,
-            location = "AI 실습실",
-            description = "VR 콘텐츠 체험과 캡스톤 프로젝트 테스트에 사용하는 독립형 VR 기기입니다."
+            location = "AI Lab",
+            description = "Standalone VR device for experiencing VR content and testing capstone projects."
         ),
         Equipment(
             id = 7,
-            name = "무선 마이크",
-            category = "음향",
+            name = "Wireless Microphone",
+            category = "Audio",
             icon = "🎤",
             status = RentalStatus.AVAILABLE,
             maxRentalDays = 2,
-            location = "학과 사무실",
-            description = "발표, 촬영, 행사 진행에 사용할 수 있는 충전식 무선 마이크입니다."
+            location = "Department Office",
+            description = "Rechargeable wireless microphone for presentations, filming, and hosting events."
         ),
         Equipment(
             id = 8,
-            name = "휴대용 스피커",
-            category = "음향",
+            name = "Portable Speaker",
+            category = "Audio",
             icon = "🔊",
             status = RentalStatus.RENTED,
             maxRentalDays = 2,
-            location = "학과 사무실",
-            description = "소규모 행사와 프로젝트 시연에 사용할 수 있는 Bluetooth 스피커입니다."
+            location = "Department Office",
+            description = "Bluetooth speaker for small events and project demonstrations."
         )
-
-
-
     )
+
     fun findById(id:Int) : Equipment ?= equipmentList.find{ equipment -> equipment.id == id}
 
-
 }
-
-
-
-
-
-

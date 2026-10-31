@@ -67,7 +67,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="✓ RecyclerView로 여러 데이터 표시"
+                android:text="✓ Display multiple items with RecyclerView"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp" />
 
@@ -75,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="✓ Data Class와 Adapter 연결"
+                android:text="✓ Connect Data Class and Adapter"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp" />
 
@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="✓ Navigation과 Bundle 데이터 전달"
+                android:text="✓ Pass data with Navigation and Bundle"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp" />
         </LinearLayout>

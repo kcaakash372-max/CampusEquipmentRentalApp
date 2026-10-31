@@ -9,7 +9,7 @@ import com.example.campusequipmentrentalapp.model.Equipment
 import com.example.campusequipmentrentalapp.model.RentalStatus
 
 /**
- * Equipment 데이터를 item_equipment.xml에 연결하는 Adapter입니다.
+ * Adapter connecting Equipment data to item_equipment.xml.
  */
 class EquipmentAdapter(
     private val items: List<Equipment>,

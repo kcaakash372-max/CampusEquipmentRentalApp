@@ -41,21 +41,21 @@
         android:name="com.example.campusequipmentrentalapp.ui.complete.CompleteFragment"
         android:label="CompleteFragment" >
         <argument
-            android:name="equimentId"
+            android:name="equipmentId"
             app:argType="integer"
             android:defaultValue="-1" />
         <argument
             android:name="applicantName"
             app:argType="string"
-            android:defaultValue="미입력" />
+            android:defaultValue="Not specified" />
         <argument
             android:name="studentId"
             app:argType="string"
-            android:defaultValue="미입력" />
+            android:defaultValue="Not specified" />
         <argument
             android:name="purpose"
             app:argType="string"
-            android:defaultValue="미입력" />
+            android:defaultValue="Not specified" />
         <argument
             android:name="rentalDays"
             app:argType="integer"
